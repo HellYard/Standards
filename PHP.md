@@ -101,14 +101,37 @@ The CFH PHP Code Quality Standards were created to establish code format rules f
 * Always use DIRECTORY_SEPARATOR instead of specifying a separator
 * Never assume a variable is an instance of a class. Always check using instanceof before using variables/methods.
 
-## Upcoming Standard Changes
-*The following rules are not in effect yet, but appear here to provide ample time to update current code to follow each of them.*
-* PHP 7 Specific
-  * Use coalescing operator(??) where possible
-*General
+# Soft Standards
+Standards located in this section are not organized in any particular fashion other than the fact they are currently not enforced, and are documented here for the sole purpose of allowing contributors to become informed of them before they are enforced.
 
-## Modification
+## PHP 7 Specific
+  * Use coalescing operator(??) where possible
+  * Use Statements
+    * Always group use statements together when possible
+    * Use statements should be places at the top
+## General
+
+## Proposals
+Addition proposals are accepted from anyone who feels that these standards don't adequately cover certain aspects of PHP that is able to be formatted various ways. Proposals must follow a specific format to provide the most clear, understandable proposal.
+
+### Format
+The format to be used for proposals is as follows:
+
+```
+Proposal Format
+
+Section: The section this proposal corresponds to, or the name of the new section proposed.
+
+Addresses: The PHP feature this addresses, and the various non-recommended formats and ways each format could impair code readability, and flow.
+
+Proposed: The proposed recommended format for this particular PHP feature, and how it makes code more readable than the alternative formats.
+```
+
+## Modifications
 The CFH PHP Code Quality Standards may change from time to time, because of this, it is the sole responsibility of each contributor to stay up-to-date on these standards when making modifications to the Software Source Code.
 
 ## Last Modified
-The CFH PHP Code Quality Standards were last modified on October 27th, 2016.
+The CFH PHP Code Quality Standards were last modified on January 30th, 2017.
+
+## Proposed Additions
+These are additions that have been proposed for the coding standards, but still have to be voted upon by the core Software developers. Addition proposals must follow the guidelines specified in Additions > Proposals section of these standards.
